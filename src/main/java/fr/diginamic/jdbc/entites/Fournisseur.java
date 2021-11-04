@@ -29,6 +29,13 @@ public class Fournisseur {
         this.nom = nom;
     }
 
+    public Fournisseur(String nom) {
+        this.nom = nom;
+    }
+
+    public Fournisseur() {
+    }
+
     /**
      * Gets id.
      *
