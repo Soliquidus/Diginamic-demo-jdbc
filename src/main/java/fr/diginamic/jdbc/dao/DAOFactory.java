@@ -12,4 +12,8 @@ public abstract class DAOFactory {
     public static FournisseurDao getFournisseurDAO() {
         return new FournisseurDaoJdbc();
     }
+
+    public static ArticleDao getArticleDAO() {
+        return new ArticleDaoJdbc();
+    }
 }
